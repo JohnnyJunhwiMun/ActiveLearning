@@ -83,9 +83,9 @@ active_learning/
    
 7. **Comparison of Performance**
    
-    It's showing simple example. Intially trained model is confused 'Fire work' motion with 'Heart'.
+    The examples below illustrate the performance of our model throughout the training process. Initially, the model trained with a limited amount of labeled data struggled to differentiate between the 'Fire work' gesture and the 'Heart' gesture.
     
-    However, retrained model by active leaerning techniques detected accurately and fast.
+    However, after retraining using active learning techniques, the model accurately and quickly detected the intended actions.
     
     - **Initially Trained Model with Small Labeled Data:**
     
