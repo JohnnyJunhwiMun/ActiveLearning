@@ -39,10 +39,7 @@ active_learning/
 3. **Interactive Labeling**  
    Visualize the selected samples in real time and label them interactively.
 
-
-    <p align="center">
-      <video src="https://github.com/user-attachments/assets/671a8827-731c-4dc7-99e8-7533c97b234f" controls width="100" height="200"></video>
-    </p>
+    ![Image](https://github.com/user-attachments/assets/c4527373-55e7-4a7e-b1f2-9bd52d015372)
     
     
     #### Example in Terminal
