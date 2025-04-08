@@ -79,7 +79,24 @@ active_learning/
     Active Learning Iteration 12
  
     No more unlabeled data available.
-7. **Comparison of Performance**  
+   
+7. **Comparison of Performance**
+
+- **Initially Trained Model with Small Labeled Data:**
+
+  <p align="center">
+    <video src="https://github.com/user-attachments/assets/1084dfaa-b14d-4f6d-be44-1ec90126a71b" controls width="600"></video>
+  </p>
+
+- **After Retraining using Active Learning Techniques:**
+
+  <p align="center">
+    <video src="https://github.com/user-attachments/assets/1406db12-7bad-41c4-9c96-6f5582273eb6" controls width="600"></video>
+  </p>
+
+
+
+
 
 ## Acknowledgments
 
