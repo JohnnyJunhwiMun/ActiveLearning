@@ -1,6 +1,10 @@
 # Active Learning / LSTM / Facetime gesture
 
 This project implements an active learning pipeline for action recognition using LSTM models. The system focuses on recognizing three specific actions: 'Like', 'Fire works', and 'Heart'.
+<div align="center">
+<img src="https://github.com/user-attachments/assets/05744e50-9622-49d2-9ae4-9d77374623cf" width="600" height="300"/>
+</div>
+
 
 ## Project Structure
 
