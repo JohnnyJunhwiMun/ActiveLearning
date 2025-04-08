@@ -1,6 +1,6 @@
 # Active Learning / LSTM / Facetime gesture
 
-In machine learning, the labeling process is both costly and time-consuming. To address this challenge, an active learning technique has been integrated into an LSTM model. Active learning is particularly effective in environments with limited labeled data, as it allows the model to selectively query uncertain data points for labeling. Rather than relying on vast amounts of labeled data for training, this approach achieves optimal performance with a minimal labeling process.
+In machine learning, the labeling process is both costly and time-consuming. To address this challenge, an active learning technique has been integrated into an LSTM model. Active learning is particularly effective in environments with limited labeled data, as it allows the model to selectively query uncertain data points for labeling. Rather than relying on vast amounts of labeled data for training, this approach achieves optimal performance with a minimal labeling process and high quality data selection.
 
 This project implements an active learning pipeline for action recognition using LSTM models. The system focuses on recognizing three specific actions: "Like," "Fire works," and "Heart."
 
