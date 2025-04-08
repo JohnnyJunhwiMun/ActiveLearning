@@ -84,15 +84,11 @@ active_learning/
 
 - **Initially Trained Model with Small Labeled Data:**
 
-  <p align="center">
-    <video src="https://github.com/user-attachments/assets/1084dfaa-b14d-4f6d-be44-1ec90126a71b" controls width="600"></video>
-  </p>
+![Initialmodel](https://github.com/user-attachments/assets/5c5fe0ef-68c7-4ac0-93ec-6e3707cc092a)
 
 - **After Retraining using Active Learning Techniques:**
 
-  <p align="center">
-    <video src="https://github.com/user-attachments/assets/1406db12-7bad-41c4-9c96-6f5582273eb6" controls width="600"></video>
-  </p>
+![Bestmodel](https://github.com/user-attachments/assets/a8062fc4-5894-463a-8fad-3dbf19a17475)
 
 
 
