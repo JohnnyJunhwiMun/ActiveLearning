@@ -81,15 +81,19 @@ active_learning/
     No more unlabeled data available.
    
 7. **Comparison of Performance**
-
-- **Initially Trained Model with Small Labeled Data:**
-
-![Initialmodel](https://github.com/user-attachments/assets/5c5fe0ef-68c7-4ac0-93ec-6e3707cc092a)
-
-- **After Retraining using Active Learning Techniques:**
-
-![Bestmodel](https://github.com/user-attachments/assets/a8062fc4-5894-463a-8fad-3dbf19a17475)
-
+   
+    It's showing simple example. Intially trained model is confused 'Fire work' motion with 'Heart'.
+    
+    However, retrained model by active leaerning techniques detected accurately and fast.
+    
+    - **Initially Trained Model with Small Labeled Data:**
+    
+    ![Initialmodel](https://github.com/user-attachments/assets/5c5fe0ef-68c7-4ac0-93ec-6e3707cc092a)
+    
+    - **After Retraining using Active Learning Techniques:**
+    
+    ![Bestmodel](https://github.com/user-attachments/assets/a8062fc4-5894-463a-8fad-3dbf19a17475)
+    
 
 
 
