@@ -37,8 +37,9 @@ active_learning/
 
 
     <p align="center">
-      <video src="https://github.com/user-attachments/assets/32e4e0b4-e937-4d67-b014-7b0b8d264622" controls width="600"></video>
+      <video src="https://github.com/user-attachments/assets/671a8827-731c-4dc7-99e8-7533c97b234f" controls width="100" height="200"></video>
     </p>
+    
     
     #### Example in Terminal
     
