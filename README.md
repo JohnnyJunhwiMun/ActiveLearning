@@ -60,7 +60,8 @@ active_learning/
    Train an LSTM-based action recognition model using a small labeled dataset.
 
 ### Step 2: Query Strategy
-   Use uncertainty sampling to identify the top *k* most uncertain samples from the unlabeled data (based on entropy).
+Use uncertainty sampling to identify the top *k* most uncertain samples from the unlabeled data (based on entropy). This guarantees high-quality data for retraining, as it selects the most challenging samples for the model to differentiate between each action.
+
 
 ### Step 3: Interactive Labeling
    Visualize the selected samples in real time and label them interactively.
@@ -91,6 +92,12 @@ active_learning/
    
 ## Performance History
 
+- **Update Strategy:** In each iteration, 10 uncertain samples are added for model retraining.
+- **Test Set Composition:** The test set consists of 15 samples for each action.
+- **Iterations:** A total of 11 iterations were conducted until no unlabeled data remained.
+
+The following table summarizes the performance metrics across the iterations:
+
   #### Iteration | F1 Score | Accuracy
   -----------------------------------
           1 | 0.6795 | 0.6957
@@ -104,9 +111,7 @@ active_learning/
           9 | 0.8190 | 0.8261
          10 | 0.7818 | 0.8043
          11 | 0.8418 | 0.8478
-  Active Learning Iteration 12
 
-  No more unlabeled data available.
 
    
 ## Comparison of Performance
