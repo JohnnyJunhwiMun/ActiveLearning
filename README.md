@@ -53,7 +53,7 @@ active_learning/
     └── best_model.h5                      # Best performing model
 
 ```
-
+---
 ## Active Learning Process
 
 ### Step 1: Initial Training
@@ -89,7 +89,7 @@ Use uncertainty sampling to identify the top *k* most uncertain samples from the
    - The performance exceeds a predefined threshold (e.g., F1 > 0.9), or  
    - There is no remaining unlabeled data.
 
-   
+---
 ## Performance History
 
 - **Update Strategy:** In each iteration, 10 uncertain samples are added for model retraining.
@@ -112,7 +112,7 @@ The following table summarizes the performance metrics across the iterations:
          10 | 0.7818 | 0.8043
          11 | 0.8418 | 0.8478
 
-
+---
    
 ## Comparison of Performance
 
@@ -127,7 +127,7 @@ The examples below illustrate the evolution of our model's performance throughou
   ![Best Model](https://github.com/user-attachments/assets/a8062fc4-5894-463a-8fad-3dbf19a17475)
 
 
-
+---
 
 ## Acknowledgments
 
