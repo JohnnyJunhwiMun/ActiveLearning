@@ -8,15 +8,15 @@ This project implements an active learning pipeline for action recognition using
 active_learning/
 ├── src/
 │   ├── __init__.py
-│   ├── config.py          # Configuration settings
-│   ├── model.py           # LSTM model definition
-│   ├── data_loader.py     # Data loading and preprocessing
-│   ├── uncertainty_sampling.py  # Uncertainty sampling strategies
-│   ├── visualization.py   # Visualization utilities
-│   └── active_learning_pipeline.py  # Main pipeline implementation
+│   ├── config.py                          # Configuration settings
+│   ├── model.py                           # LSTM model definition
+│   ├── data_loader.py                     # Data loading and preprocessing
+│   ├── uncertainty_sampling.py            # Uncertainty sampling strategies
+│   ├── visualization.py                   # Visualization utilities
+│   └── active_learning_pipeline.py        # Main pipeline implementation
 └── models/
-    ├── initial_model.h5   # Initial trained model
-    └── best_model.h5      # Best performing model
+    ├── initial_model.h5                   # Initial trained model
+    └── best_model.h5                      # Best performing model
 
 ```
 
