@@ -35,11 +35,25 @@ active_learning/
 3. **Interactive Labeling**  
    Visualize the selected samples in real time and label them interactively.
 
-4. **Model Retraining**  
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/32e4e0b4-e937-4d67-b014-7b0b8d264622" controls width="600"></video>
+</p>
+
+### Example in Terminal
+
+```bash
+Select action (1: Like, 2: Fire works, 3: Heart, q: Skip):  
+2  (User directly labeling by typing corresponding number as the video above, in this case it's Fire works motion)
+Sequence  f (7) moved to Fire works directory as 43  
+Sequence  f (7) labeled as Fire works
+```
+
+5. **Model Retraining**  
    Retrain the model using the updated dataset:  
    `original labeled data + newly labeled uncertain samples`.
 
-5. **Evaluation & Iteration**  
+6. **Evaluation & Iteration**  
    Evaluate performance (e.g., using the F1 score).  
    Repeat the process until the model reaches a predefined performance threshold (e.g., F1 > 0.9).
 
