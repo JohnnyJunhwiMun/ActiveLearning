@@ -55,8 +55,31 @@ active_learning/
    `original labeled data + newly labeled uncertain samples`.
 
 6. **Evaluation & Iteration**  
-   Evaluate performance (e.g., using the F1 score).  
-   Repeat the process until the model reaches a predefined performance threshold (e.g., F1 > 0.9).
+   Measure the model’s performance (e.g., using the F1 score).  
+   Continue to iterate the labeling and training processes until either:
+   - The performance exceeds a predefined threshold (e.g., F1 > 0.9), or  
+   - There is no remaining unlabeled data.
+
+   
+    ### Example of Performance History:
+
+    #### Iteration | F1 Score | Accuracy
+    -----------------------------------
+            1 | 0.6795 | 0.6957
+            2 | 0.7299 | 0.7391
+            3 | 0.7768 | 0.7826
+            4 | 0.8002 | 0.8043
+            5 | 0.7951 | 0.8043
+            6 | 0.8202 | 0.8261
+            7 | 0.8190 | 0.8261
+            8 | 0.8118 | 0.8261
+            9 | 0.8190 | 0.8261
+           10 | 0.7818 | 0.8043
+           11 | 0.8418 | 0.8478
+    Active Learning Iteration 12
+ 
+    No more unlabeled data available.
+7. **Comparison of Performance**  
 
 ## Acknowledgments
 
