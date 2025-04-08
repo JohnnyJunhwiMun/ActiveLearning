@@ -24,47 +24,24 @@ active_learning/
 
 ```
 
-## Features
-
-- LSTM-based action recognition model
-- Active learning pipeline with uncertainty sampling
-- Interactive labeling interface
-- Real-time visualization of action sequences
-- Performance monitoring and model evaluation
-
-## Requirements
-
-- Python 3.8+
-- PyTorch
-- NumPy
-- OpenCV
-- scikit-learn
-- TensorBoard
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Configuration
-
-The project can be configured through `config.py`:
-
-- Model parameters (input dimension, number of classes)
-- Training settings (learning rate, epochs, batch size)
-- Active learning parameters (uncertainty sampling size, stopping criteria)
-- Data paths and visualization settings
-
-
-
 ## Active Learning Process
 
-1. Initial training with a small labeled dataset
-2. Query Strategy: Uncertainty sampling from unlabeled data using top k number of entropy
-3. Interactive labeling of uncertain samples
-4. Model retraining with newly labeled data (original small labeled dataset + labeled top k uncertain samples)
-5. Performance evaluation and iteration : untill F1 score > threshold (e.g. 0.9)
+1. **Initial Training**  
+   Train an LSTM-based action recognition model using a small labeled dataset.
 
+2. **Query Strategy**  
+   Use uncertainty sampling to identify the top *k* most uncertain samples from the unlabeled data (based on entropy).
+
+3. **Interactive Labeling**  
+   Visualize the selected samples in real time and label them interactively.
+
+4. **Model Retraining**  
+   Retrain the model using the updated dataset:  
+   `original labeled data + newly labeled uncertain samples`.
+
+5. **Evaluation & Iteration**  
+   Evaluate performance (e.g., using the F1 score).  
+   Repeat the process until the model reaches a predefined performance threshold (e.g., F1 > 0.9).
 
 ## Acknowledgments
 
