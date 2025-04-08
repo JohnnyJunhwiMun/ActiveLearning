@@ -1,6 +1,10 @@
 # Active Learning / LSTM / Facetime gesture
 
-This project implements an active learning pipeline for action recognition using LSTM models. The system focuses on recognizing three specific actions: 'Like', 'Fire works', and 'Heart'.
+In machine learning, the labeling process is both costly and time-consuming. To address this challenge, an active learning technique has been integrated into an LSTM model. Active learning is particularly effective in environments with limited labeled data, as it allows the model to selectively query uncertain data points for labeling. Rather than relying on vast amounts of labeled data for training, this approach achieves optimal performance with a minimal labeling process.
+
+This project implements an active learning pipeline for action recognition using LSTM models. The system focuses on recognizing three specific actions: "Like," "Fire works," and "Heart."
+
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/05744e50-9622-49d2-9ae4-9d77374623cf" width="600" height="300"/>
 </div>
@@ -90,7 +94,7 @@ active_learning/
     
     ![Initialmodel](https://github.com/user-attachments/assets/5c5fe0ef-68c7-4ac0-93ec-6e3707cc092a)
     
-    - **After Retraining using Active Learning Techniques:**
+    - **Model after Retraining using Active Learning Techniques:**
     
     ![Bestmodel](https://github.com/user-attachments/assets/a8062fc4-5894-463a-8fad-3dbf19a17475)
     
